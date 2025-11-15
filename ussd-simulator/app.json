@@ -29,7 +29,8 @@
         "backgroundColor": "#4F46E5"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.tahmidraven.ussdsimulator"
     },
     "web": {
       "favicon": "./assets/icon.png",
@@ -53,6 +54,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "3b7ac272-6eee-415e-a53c-55a643a3a233"
+      }
     }
   }
 }
